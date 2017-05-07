@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serviço:" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lblCepOrigem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CEP Origem" />
+
+    <EditText
+        android:id="@+id/txtCepOrigem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="8"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/lblCepDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CEP Destino" />
+
+    <EditText
+        android:id="@+id/txtCepDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="8"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcularPrazo"
+        android:text="Calcular prazo" />
+
+</LinearLayout>
