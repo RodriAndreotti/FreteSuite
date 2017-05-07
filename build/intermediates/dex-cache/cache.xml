@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c93a1f6894339f38952039a5c6564bba7ff001e6">
+        sha1="fecd6d44614770399fde775b24fcd4a4e4a0f858">
         <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3412656b9c5234f2ba8e30a19d654cc61e6fa32c/classes.dex" />
     </item>
 

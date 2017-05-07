@@ -82,19 +82,22 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_rastreio) {
-            // Handle the camera action
+            Intent intent =  new Intent(this, RastreioActivity.class);
+            this.startActivity(intent);
         } else if (id == R.id.nav_configuracoes) {
-            startActivity(new Intent(this, ConfiguracoesActivity.class));
+            Intent intent =  new Intent(this, ConfiguracoesActivity.class);
+            this.startActivity(intent);
         } else if (id == R.id.nav_preferenciais) {
-
+            Intent intent =  new Intent(this, ConfiguracoesActivity.class);
+            this.startActivity(intent);
         } else if (id == R.id.nav_endereco) {
-
+            Intent intent =  new Intent(this, ConfiguracoesActivity.class);
+            this.startActivity(intent);
         } else if (id == R.id.nav_calcular) {
-
+            Intent intent =  new Intent(this, CalculadoraActivity.class);
+            this.startActivity(intent);
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }

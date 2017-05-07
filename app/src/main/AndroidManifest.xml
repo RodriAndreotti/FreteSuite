@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ConfiguracoesActivity"/>
+        <activity android:name=".CalculadoraActivity"/>
+        <activity android:name=".ClientesActivity"/>
+        <activity android:name=".ListaClientesActivity"/>
+        <activity android:name=".RastreioActivity"/>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_rastreio"
-            android:title="Rastraio de Encomendas" />
+            android:title="Rastreio de Encomendas" />
         <item
             android:id="@+id/nav_calcular"
             android:title="Calcular Frete" />
