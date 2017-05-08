@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CalcularPrazo"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -18,9 +18,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
+        <activity android:name=".ConfiguracoesActivity"/>
+        <activity android:name=".CalculadoraActivity"/>
+        <activity android:name=".ClientesActivity"/>
+        <activity android:name=".ListaClientesActivity"/>
+        <activity android:name=".RastreioActivity"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

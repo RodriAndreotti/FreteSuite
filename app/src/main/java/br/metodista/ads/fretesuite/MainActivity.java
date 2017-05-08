@@ -86,22 +86,23 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (id == R.id.nav_rastreio) {
+            Intent intent =  new Intent(this, RastreioActivity.class);
+            this.startActivity(intent);
+        } else if (id == R.id.nav_configuracoes) {
+            Intent intent =  new Intent(this, ConfiguracoesActivity.class);
+            this.startActivity(intent);
+        } else if (id == R.id.nav_preferenciais) {
+            Intent intent =  new Intent(this, ConfiguracoesActivity.class);
+            this.startActivity(intent);
+        } else if (id == R.id.nav_endereco) {
+            Intent intent =  new Intent(this, ConfiguracoesActivity.class);
+            this.startActivity(intent);
+        } else if (id == R.id.nav_calcular) {
+            Intent intent =  new Intent(this, CalculadoraActivity.class);
+            this.startActivity(intent);
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }
