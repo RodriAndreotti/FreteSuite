@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <group android:checkableBehavior="single">
         <item
+            app:showAsAction="never"
             android:id="@+id/nav_rastreio"
             android:title="Rastreio de Encomendas" />
         <item
+            app:showAsAction="never"
             android:id="@+id/nav_calcular"
             android:title="Calcular Frete" />
         <item
+            app:showAsAction="never"
             android:id="@+id/nav_endereco"
             android:title="Procurar Endereço" />
         <item
+            app:showAsAction="never"
             android:id="@+id/nav_preferenciais"
             android:title="Clientes Preferenciais" />
         <item
+            app:showAsAction="never"
             android:id="@+id/nav_configuracoes"
             android:title="Configurações" />
-    </group>
 
 </menu>

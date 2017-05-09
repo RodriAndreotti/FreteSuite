@@ -3,12 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/home/marcelo/.android/build-cache/3ff03df394fd42f1220fff7e8b0dbf70115a2281/output/jars/classes.jar"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/com.google.code.ksoap2-android/ksoap2-base/3.6.0/290baebc90b7b320ccb2adb2ed38d7838bc805a1/ksoap2-base-3.6.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d87d7b7de91e6a6db1783d03d6549e0a22e41ca8/classes.dex" />
+        sha1="290baebc90b7b320ccb2adb2ed38d7838bc805a1">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/ksoap2-base-3.6.0_2ac56a62a3c801ed410e214bcc023e031bac41d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/workspace/FreteSuite/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9e4d3a0b66541ffa81afabdf622576ee2190c532/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/com.google.code.ksoap2-android/ksoap2-j2se/3.6.0/e4733a185d549446527620772469361756457052/ksoap2-j2se-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4733a185d549446527620772469361756457052">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/ksoap2-j2se-3.6.0_d0499c9563349d35838b62be3b3ffefb3688ec6e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,12 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/marcelo/workspace/FreteSuite/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9e4d3a0b66541ffa81afabdf622576ee2190c532/classes.dex" />
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_857a6d68b1451281ea642f138b212a1e52cc639a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -43,8 +61,53 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fecd6d44614770399fde775b24fcd4a4e4a0f858">
+        sha1="c79d0ae3439a13bb13b2b8ebc0b3c13af952bf19">
         <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3412656b9c5234f2ba8e30a19d654cc61e6fa32c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/net.sourceforge.kobjects/kobjects-j2me/0.0-SNAPSHOT-20040926-2/9246ca92b16c65114a7fb80b906801e06be95305/kobjects-j2me-0.0-SNAPSHOT-20040926-2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9246ca92b16c65114a7fb80b906801e06be95305">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/kobjects-j2me-0.0-SNAPSHOT-20040926-2_8d5ca1297cbe645809f71dfab5aaa3fa738f8bc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/net.sourceforge.kxml/kxml/2.2.4/1642506e490548d96984b8370e44257c156097f7/kxml-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1642506e490548d96984b8370e44257c156097f7">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/kxml-2.2.4_a9c9bd7e60ae57ecca03b7ef203b60f1354e5eca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.android/build-cache/3ff03df394fd42f1220fff7e8b0dbf70115a2281/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d87d7b7de91e6a6db1783d03d6549e0a22e41ca8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/org.xmlpull/xmlpull/1.1.3.3/9b62254da05ce6399a09164362da7b2419de63ca/xmlpull-1.1.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9b62254da05ce6399a09164362da7b2419de63ca">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/xmlpull-1.1.3.3_859d1b6e1de247c8da170145045f83e646cbcfec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.android/build-cache/071edf3ea1d72a75f5a46293e5398542cfd4451c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb66baacc1d643a295f85aba5ae4682ab38abc1d/classes.dex" />
     </item>
 
 </items>
