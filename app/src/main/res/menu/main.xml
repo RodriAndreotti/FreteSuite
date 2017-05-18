@@ -4,7 +4,7 @@
     <item
         android:id="@+id/cadastro_cliente"
         android:orderInCategory="100"
-        android:title="Cadsatro de Cliente"
+        android:title="@string/cadastro_cliente"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_settings"

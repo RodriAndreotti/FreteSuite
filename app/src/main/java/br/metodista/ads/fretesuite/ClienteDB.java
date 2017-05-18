@@ -18,7 +18,7 @@ import br.metodista.ads.fretesuite.models.MDLCliente;
 public class ClienteDB extends SQLiteOpenHelper {
 
     public ClienteDB(Context context) {
-        super(context, "ClienteDB", null, 1);
+        super(context, "FreteSuite", null, 1);
     }
 
     @Override

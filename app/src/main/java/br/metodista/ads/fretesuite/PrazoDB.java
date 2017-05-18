@@ -17,7 +17,7 @@ import br.metodista.ads.fretesuite.models.MDLCliente;
 public class PrazoDB extends SQLiteOpenHelper {
 
     public PrazoDB(Context context) {
-        super(context, "ClienteDB", null, 1);
+        super(context, "FreteSuite", null, 1);
     }
 
     @Override
