@@ -6,10 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="br.metodista.ads.fretesuite.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:openDrawer="start">
 
     <include
         layout="@layout/app_bar_main"
@@ -25,17 +22,4 @@
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:gravity="center_horizontal" >
-
-        <ListView
-            android:id="@+id/listaProdutos"
-            android:layout_marginTop="50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-        </ListView>
-    </LinearLayout>
 </android.support.v4.widget.DrawerLayout>

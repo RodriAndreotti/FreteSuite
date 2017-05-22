@@ -5,8 +5,7 @@
         <item
             app:showAsAction="never"
             android:id="@+id/nav_rastreio"
-            android:title="Rastreio de Encomendas"
-            android:onClick="mostrarMain" />
+            android:title="Rastreio de Encomendas" />
         <item
             app:showAsAction="never"
             android:id="@+id/nav_calcular"
@@ -18,8 +17,7 @@
         <item
             app:showAsAction="never"
             android:id="@+id/nav_preferenciais"
-            android:title="Clientes Preferenciais"
-            android:onClick="mostrarClientes"/>
+            android:title="Clientes Preferenciais" />
         <item
             app:showAsAction="never"
             android:id="@+id/nav_configuracoes"

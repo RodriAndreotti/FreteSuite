@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/marcelo/workspace/FreteSuite/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9e4d3a0b66541ffa81afabdf622576ee2190c532/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/marcelo/.android/build-cache/cfacb950a1f370ab2fa19004a1d1fabd19548716/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,21 +39,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/marcelo/workspace/FreteSuite/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9e4d3a0b66541ffa81afabdf622576ee2190c532/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/marcelo/workspace/FreteSuite/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fecd6d44614770399fde775b24fcd4a4e4a0f858">
+        sha1="6fd7b7c245c2fbf1ddb19d1c30e8d901de614938">
         <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3412656b9c5234f2ba8e30a19d654cc61e6fa32c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcelo/.gradle/caches/modules-2/files-2.1/net.sourceforge.kobjects/kobjects-j2me/0.0-SNAPSHOT-20040926-2/9246ca92b16c65114a7fb80b906801e06be95305/kobjects-j2me-0.0-SNAPSHOT-20040926-2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9246ca92b16c65114a7fb80b906801e06be95305">
+        <dex dex="/home/marcelo/workspace/FreteSuite/app/build/intermediates/transforms/dex/debug/folders/1000/10/kobjects-j2me-0.0-SNAPSHOT-20040926-2_8d5ca1297cbe645809f71dfab5aaa3fa738f8bc2/classes.dex" />
     </item>
 
 </items>
